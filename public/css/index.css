@@ -1,0 +1,56 @@
+html,body {
+    height: 100%;
+}
+
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+
+#footer {
+    background-color: #f5f5f5;
+    vertical-align: middle;
+    text-align: center;
+}
+
+@media {
+    #footer {
+        margin-left: -0px;
+        margin-right: -0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+h1,h2,h3,h4,h5,h6,dt,dd,p {
+    color: #7d7d7d;
+}
+
+small {
+    color: #7d7d7d;
+}
+
+#access_num {
+    color: #007bbb;
+    font-size: 18px;
+}
+
+#form {
+    padding-bottom: 16px;
+}
+
+div {
+    word-break: break-all;
+}
+
+#logo {
+    height: 64px;
+    width: 64px;
+    background-image: url("/image/7bunnies-logo.png");
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
